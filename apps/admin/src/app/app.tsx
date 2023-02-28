@@ -2,11 +2,12 @@
 import styles from './app.module.scss';
 
 import NxWelcome from './nx-welcome';
+import Home from './home/home';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="admin" />
+      <Home />
 
       <div />
     </>
